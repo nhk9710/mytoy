@@ -10,7 +10,11 @@
 
 .menu1, .menu2, .menu3, .menu4{ transition: all .3s linear; cursor: pointer }
 .sub-menu1, .sub-menu2, .sub-menu3, .sub-menu4{ opacity: 0; pointer-events: none; position: absolute;
-    display: flex; flex-direction: column; transform: scale(10%); transition: all .1s linear; background-color: grey; color: white;}
+    display: flex; flex-direction: column; transform: scale(50%); transition: all .1s linear; background-color: grey; color: white;
+    border-radius: 10px;}
 .sub-menu1 a, .sub-menu2 a, .sub-menu3 a, .sub-menu4 a{ text-decoration: none; text-underline: none; color: white; }
 
 .menu1:hover .sub-menu1, .menu2:hover .sub-menu2, .menu3:hover .sub-menu3, .menu4:hover .sub-menu4{ transform: scale(100%); opacity: 1; pointer-events: auto; }
+
+
+.login{ cursor: pointer }
