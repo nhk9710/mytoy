@@ -1,2 +1,27 @@
 .all-container{ position: relative; }
 
+#section1,
+#section2,
+#section3,
+#section4{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#section1{
+    background-image: url(../img/alcohol1.jpg);
+
+}
+#section2{
+    background-image: url(../img/alcohol2.jpg);
+    padding: 6% 0 0 0;
+}
+#section3{
+    background-image: url(../img/alcohol3.jpg);
+    padding: 6% 0 0 0;
+}
+#section4{
+    background-image: url(../img/alcohol4.jpg);
+    background-position: left top;
+    padding: 6% 0 0 0 ;
+}
+
