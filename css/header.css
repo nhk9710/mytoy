@@ -1,0 +1,2 @@
+.header-container{ position: fixed; width: 100%; background-color: #333333; z-index: 99; }
+.header-wrap{ width: 100%; max-width: 1440px; color: white; margin: 0 auto; border: 1px solid white}
