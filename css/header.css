@@ -19,15 +19,17 @@
 .sub-menu1, .sub-menu2, .sub-menu3, .sub-menu4{ opacity: 0; pointer-events: none; position: absolute;
     display: flex; flex-direction: column; transform: scale(50%); transition: all .1s linear; background-color: grey; color: white;
     border-radius: 10px; overflow: hidden;
-    padding: 1%;
 }
-.sub-menu1 a, .sub-menu2 a, .sub-menu3 a, .sub-menu4 a{ text-decoration: none; text-underline: none; color: white; margin-bottom: 10px }
+.sub-menu1 a, .sub-menu2 a, .sub-menu3 a, .sub-menu4 a{ text-decoration: none; text-underline: none; color: white; margin-bottom: 10px; width: 100%; padding-left: 1%; padding-right: 1% }
 .sub-menu1 a:last-child, .sub-menu2 a:last-child, .sub-menu3 a:last-child, .sub-menu4 a:last-child{ margin: 0 }
 .menu1:hover .sub-menu1, .menu2:hover .sub-menu2, .menu3:hover .sub-menu3, .menu4:hover .sub-menu4{ transform: scale(100%) translateX(-30%); opacity: 1; pointer-events: auto; }
 .menu1:hover, .menu2:hover, .menu3:hover, .menu4:hover{ color: khaki }
 
-
-.sub-content:hover{ background-color: black; color: white; }
+.sub-content{ padding-top: 10px; padding-bottom: 10px }
+.sub-content a{ padding-right: 10px; padding-left: 10px; }
+.sub-content:hover{ background-color: black; color: white; width: 100%; }
 
 .login{ display: flex; align-items: center; justify-content: flex-end; width: 10%; }
+.login p{ cursor: pointer }
+.login p:hover{ color: khaki }
 .login img{ width: 20%; }
