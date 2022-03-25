@@ -1,7 +1,14 @@
 .header-container{ position: fixed; width: 100%; background-color: #333333; z-index: 99; }
-.header-wrap{ width: 100%; max-width: 1440px; color: white; justify-content: space-between; align-items: center; padding-top: 10px; padding-bottom: 10px; display: flex; margin: 0 auto;}
+.header-wrap{ width: 100%; max-width: 1440px; color: white; justify-content: space-between; align-items: center; padding-top: 10px; padding-bottom: 10px; display: flex; margin: 0 auto; }
 .header-wrap img{ width: 15%; margin-right: 5%; }
-.header-title{ width: 30%; display: flex; justify-content: flex-start; align-items: center}
+.header-title{ width: 30%; display: flex; justify-content: flex-start; align-items: center }
 
 
-.menu-list{ display: flex; width: 50%; justify-content: space-evenly;  }
+.menu-list{ display: flex; width: 50%; justify-content: space-evenly; }
+
+.menu1, .menu2, .menu3, .menu4{ transition: all .3s linear; cursor: pointer }
+.sub-menu1, .sub-menu2, .sub-menu3, .sub-menu4{ opacity: 0; pointer-events: none; position: absolute;
+    display: flex; flex-direction: column; transform: scale(10%); transition: all .1s linear; background-color: grey; color: white;}
+.sub-menu1 a, .sub-menu2 a, .sub-menu3 a, .sub-menu4 a{ text-decoration: none; text-underline: none; color: white; }
+
+.menu1:hover .sub-menu1, .menu2:hover .sub-menu2, .menu3:hover .sub-menu3, .menu4:hover .sub-menu4{ transform: scale(100%); opacity: 1; pointer-events: auto; }
