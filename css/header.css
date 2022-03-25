@@ -1,7 +1,9 @@
-.header-container{ position: fixed; width: 100%; background-color: #333333; z-index: 99; }
+.header-container{ position: fixed; width: 100%; background-color: #333333; z-index: 99; font-family: 'Dongle', sans-serif; }
 .header-wrap{ width: 100%; max-width: 1440px; color: white; justify-content: space-between; align-items: center; padding-top: 10px; padding-bottom: 10px; display: flex; margin: 0 auto; }
 .header-wrap img{ width: 15%; margin-right: 5%; }
 .header-title{ width: 30%; display: flex; justify-content: flex-start; align-items: center }
+
+.header-font{ font-size: 3.1em }
 
 
 .menu-list{ display: flex; width: 50%; justify-content: space-evenly; }
