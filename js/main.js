@@ -13,7 +13,7 @@ $(function (){
         animateAnchor: true,
         controllArrows: true,
         menu:'.myNav',
-        sectionsColor : ['black', 'pink', 'lightgreen', 'grey'],
+        sectionsColor : ['lightblue', 'pink', 'lightgreen', 'grey'],
         fixedElements: 'footer',
         fadingEffect: true,
     });
