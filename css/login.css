@@ -6,6 +6,9 @@
 }
 
 body{ font-family: 'HaenamFont' }
-.login-box{ position: absolute; background-color: white; top: 50vh; left: 50%; border-radius: 10px; line-height: 2  }
-
-.user-info{ display: flex; flex-direction: column; padding: 10%; }
+.login-box{ position: absolute; background-color: white; top: 50%; left: 50%;
+    border-radius: 10px; line-height: 2; transform: translate(-50%, -50%)  }
+.user-info{ display: flex; flex-direction: column; padding: 10%;  }
+.user-info input{ border-radius: 5px; margin-bottom: 10%; font-size: 2em; padding: 5px}
+.user-info input:last-child{ margin: 0; }
+.user-info input:focus{ outline: none; border: 2px solid orange; }
