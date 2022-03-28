@@ -7,14 +7,13 @@
 
 body{ font-family: 'HaenamFont' }
 .login-box{ position: absolute; background-color: white; top: 50%; left: 50%;
-    border-radius: 10px; line-height: 2; transform: translate(-50%, -50%); box-shadow: 2px 2px 20px black  }
-.user-info{ display: flex; flex-direction: column; padding: 10%;  }
+    border-radius: 10px; line-height: 2; transform: translate(-50%, -50%); }
+.user-info{ display: flex; flex-direction: column; padding: 5%;  }
 .user-info input{ border-radius: 5px; margin-bottom: 10%; font-size: 2em; padding: 5px}
 .user-info input:last-child{ margin: 0; }
-.user-info input:focus{ outline: none; border: 2px solid orange }
 .user-info input:nth-child(4):focus{ outline: none; border: 2px solid #a6c294 }
 
-.sign-button{ background-color: #6e9656; border: 2px solid #6e9656; cursor: pointer; color: white }
-.sign-button:hover{ background-color: #486238 }
+.sign-button{ background-color: #606363; border: none; cursor: pointer; color: white }
+.sign-button:hover{ background-color: #383939 }
 
-.sign-up{ color: #6e9656; font-weight: bolder; cursor: pointer; font-size: 1.3em }
+.sign-up{ color: #606363; font-weight: bolder; cursor: pointer; font-size: 1.3em }
