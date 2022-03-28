@@ -16,4 +16,9 @@ $(function (){
         fixedElements: 'footer',
         fadingEffect: true,
     });
+
+    $('#login-page').fullpage({
+
+        sectionsColor : ['#d4cfcc'],
+    });
 })

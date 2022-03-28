@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'HaenamFont';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/HaenamFont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{ font-family: 'HaenamFont' }
+.login-box{ position: absolute; background-color: white; top: 50vh; left: 50%; border-radius: 10px; line-height: 2  }
+
+.user-info{ display: flex; flex-direction: column; padding: 10%; }
