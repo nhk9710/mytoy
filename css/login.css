@@ -8,8 +8,8 @@
 body{ font-family: 'HaenamFont' }
 .login-box{ position: absolute; background-color: white; top: 50%; left: 50%;
     border-radius: 10px; line-height: 2; transform: translate(-50%, -50%); }
-.user-info{ display: flex; flex-direction: column; padding: 5%;  }
-.user-info input{ border-radius: 5px; margin-bottom: 10%; font-size: 2em; padding: 5px}
+.user-info{ display: flex; flex-direction: column; padding: 5%; text-align: center }
+.user-info input{ border-radius: 5px; margin-bottom: 5%; font-size: 2em; padding: 5px}
 .user-info input:last-child{ margin: 0; }
 
 .sign-button{ background-color: #606363; border: none; cursor: pointer; color: white }
