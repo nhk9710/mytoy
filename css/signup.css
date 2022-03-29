@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'HaenamFont';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/HaenamFont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{ font-family: 'HaenamFont' }
+
+.signup-box{ position: absolute; background-color: white; top: 50%; left: 50%;
+    border-radius: 10px; line-height: 2; transform: translate(-50%, -50%); width: 20% }
+
+.signup-form{ display: flex; flex-direction: column; padding: 5%; text-align: center  }
+.signup-form p{ margin-bottom: 5% }
+.signup-form input{ margin-bottom: 5%; border-radius: 5px }
+.signup-form input{ margin-bottom: 5%; border-radius: 5px; font-size: 2em; padding: 5px }
+.signup-form input:last-child{ border-radius: 30px; color: white; background-color: #606363; border: none; cursor: pointer }
+.signup-form input:last-child:hover{ background-color: #383939 }
+
+.signup-img{ margin-bottom: 10%; vertical-align: center }
+.signup-img img{ width: 15% }
+.signup-img p{ margin: 0; font-weight: bolder; cursor: pointer }

@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <title>로그인</title>
+  <title>회원가입</title>
   <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="96x96" href="../img/favicon-96x96.png">
   <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
@@ -11,34 +11,31 @@
   <link rel="stylesheet" href="../css/jquery.fullPage.css">
   <link rel="stylesheet" href="../css/header.css">
   <link rel="stylesheet" href="../css/main.css">
-  <link rel="stylesheet" href="../css/login.css">
+  <link rel="stylesheet" href="../css/signup.css">
 </head>
 <body>
 <div class="all-container">
   <header></header>
 
-<div id="login-page">
-  <div id="section" class="section section1">
-    <div class="login-box">
-      <div class="user-info">
-        <p class="header-title-font" style="font-weight: bold">Log in</p>
-        <input type="text" placeholder="Id">
-        <input type="password" placeholder="Password">
-
-        <input type="button" class="sign-button" value="Sign In">
-        <div class="f-sb-m">
-          <p style="font-weight: bolder">don't have an account?</p>
-          <p class="sign-up" onclick="location.href='sign-up.html'">Sign Up</p>
+  <div id="login-page">
+    <div id="section" class="section section1">
+      <div class="signup-box">
+        <div class="signup-form">
+          <div class="signup-img f-sb-m">
+            <img src="../img/mainIcon.png" alt="맥주잔 아이콘">
+            <p class="header-font">Sign In</p>
+          </div>
+          <p class="header-font" style="font-weight: bold">Create a new account</p>
+          <input type="text" placeholder="ID">
+          <input type="password" placeholder="Password">
+          <input type="button" value="Sign Up">
         </div>
-
       </div>
     </div>
   </div>
+
+
 </div>
-
-</div>
-
-
 
 <script type="text/javascript" src="../js/jquery/jquery-2.2.4.js"></script>
 <script type="text/javascript" src="../js/jquery/jquery-migrate-1.4.1.min.js"></script>
