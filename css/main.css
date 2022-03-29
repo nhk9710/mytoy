@@ -22,13 +22,21 @@
     background-image: url(../img/alcohol3.jpg);
     padding: 6% 0 0 0;
 }
-#section4{
-    background-image: url(../img/alcohol4.jpg);
-    background-position: left top;
-    padding: 6% 0 0 0 ;
-}*/
 
+*/
 .footer{ background-color: black; width: 100%;}
-.footer-wrap{ width: 100%; max-width: 1440px; color: white; margin: 0 auto; padding-top: 3%; padding-bottom: 3% }
+.footer-wrap{ width: 100%; max-width: 1440px; color: white; margin: 0 auto; padding-top: 3%; padding-bottom: 1% }
+.footer-wrap .bold-font1{ margin-bottom: 15px; }
 
+.github{ margin-right: 10px }
+.github-teams{ width: 5%; transition: all .3s linear; display: flex; align-items: center; }
+.github-teams:hover{ color: khaki; }
+.github-teams:hover .github-icon{ opacity: 1; pointer-events: auto }
+.github-icon{ display: flex; opacity: 0; pointer-events: none; transition: all 0.3s linear }
+.github-icon p{ background-color: white; color: darkslategray; font-weight: bolder; width: 60%;
+    margin-right: 5px;
+    padding: 7px 6px;
+    border-radius: 50%; cursor: pointer }
+
+.copyright{ text-align: center; font-size: 0.9em }
 
