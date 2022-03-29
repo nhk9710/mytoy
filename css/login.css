@@ -1,16 +1,21 @@
 @font-face {
-    font-family: 'HaenamFont';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/HaenamFont.woff') format('woff');
+    font-family: 'Dolbomche_B';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/Dolbomche_B.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 
-.login-box{ position: absolute; background-color: white; top: 50%; left: 50%;
-    border-radius: 10px; line-height: 2; transform: translate(-50%, -50%); }
-.user-info{ display: flex; flex-direction: column; padding: 5%; text-align: center }
+.login-box{ position: absolute; background-color: white; top: 50%; left: 50%; z-index: 999;
+    border-radius: 10px; line-height: 2; transform: translate(-50%, -50%);display: flex; }
+.user-info{ display: flex; flex-direction: column;
+    padding-right: 5%;
+    text-align: center; justify-content: space-evenly}
 .user-info input{ border-radius: 5px; margin-bottom: 5%; font-size: 2em; padding: 5px}
-.user-info input:nth-child(4){ margin: 0; border-radius: 10px }
+.user-info input:nth-child(5){ margin: 0; border-radius: 10px }
+
+.half-box{ }
+.half-box img{ width: 70%; margin-top: 50%; transform: translateY(-50%) }
 
 .sign-button{ background-color: #606363; border: none; cursor: pointer; color: white }
 .sign-button:hover{ background-color: #383939 }

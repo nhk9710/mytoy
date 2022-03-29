@@ -21,4 +21,5 @@ $(function (){
 
         sectionsColor : ['#d4cfcc'],
     });
+
 })
