@@ -36,7 +36,9 @@
 .github-icon p{ background-color: white; color: darkslategray; font-weight: bolder; width: 60%;
     margin-right: 5px;
     padding: 7px 6px;
-    border-radius: 50%; cursor: pointer }
+    border-radius: 50%; cursor: pointer; transition: all .3s linear }
+
+.github-icon p:hover{ background-color: khaki; }
 
 .copyright{ text-align: center; font-size: 0.9em }
 
