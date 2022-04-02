@@ -7,17 +7,20 @@
 
 
 .login-box{ position: absolute; background-color: white; top: 50%; left: 50%; z-index: 999;
-    border-radius: 10px; line-height: 2; transform: translate(-50%, -50%);display: flex; }
+    border-radius: 10px; width: 40%; height: 33%; padding-top: 4%; padding-bottom: 5%;
+    line-height: 2; transform: translate(-50%, -50%);display: flex; }
 .user-info{ display: flex; flex-direction: column;
-    padding-right: 5%;
-    text-align: center; justify-content: space-evenly}
-.user-info input{ border-radius: 5px; margin-bottom: 5%; font-size: 2em; padding: 5px}
+    padding-right: 10%;
+    text-align: center; }
+.login-info{ border-radius: 5px; margin-bottom: 5%; font-size: 1.5em; padding: 5px; border: none; background-color: #dbdbdb }
 .user-info input:nth-child(5){ margin: 0; border-radius: 10px }
 
-.half-box{ }
-.half-box img{ width: 70%; margin-top: 50%; transform: translateY(-50%) }
+.half-box{ padding-left: 10% }
+.half-box img{ width: 80%; margin-top: 50%; transform: translateY(-50%) }
 
-.sign-button{ background-color: #606363; border: none; cursor: pointer; color: white }
+.sign-button{ font-weight: bolder; font-size: 1.5em;
+    padding: 5px; border-radius: 5px; margin-bottom: 25%;
+    background-color: dimgrey; border: none; cursor: pointer; color: white }
 .sign-button:hover{ background-color: #383939 }
 
 .sign-up{ color: white; font-weight: bolder; border-radius: 10px; margin: 0 auto;
