@@ -24,7 +24,7 @@
 .header-title{ width: 30%; display: flex; justify-content: flex-start; align-items: center; text-align: center }
 
 .header-title-font{ font-size: 2em; }
-.header-font{ font-size: 1.3em; line-height: normal }
+.header-font{ font-size: 1.1em; line-height: normal }
 
 
 .menu-list{ display: flex; width: 50%; justify-content: space-evenly; align-items: center }

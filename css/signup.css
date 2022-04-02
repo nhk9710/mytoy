@@ -5,18 +5,28 @@
     font-style: normal;
 }
 
-body{ font-family: 'HaenamFont' }
+body{
+    font-family: 'HaenamFont', serif }
 
 .signup-box{ position: absolute; background-color: white; top: 50%; left: 50%;
-    border-radius: 10px; line-height: 2; transform: translate(-50%, -50%); width: 20% }
+    border-radius: 10px; line-height: 2; display: flex; width: 40%;
+    transform: translate(-50%, -50%); padding: 2%; height: 45% }
 
-.signup-form{ display: flex; flex-direction: column; padding: 5%; text-align: center  }
+.half-box{ padding-right: 5% }
+.half-box img{ width: 90%; margin-top: 50%; transform: translateY(-30%) }
+
+.signup-form{ display: flex; flex-direction: column;  text-align: center  }
 .signup-form p{ margin-bottom: 5% }
-.signup-form input{ margin-bottom: 5%; border-radius: 5px }
-.signup-form input{ margin-bottom: 5%; border-radius: 5px; font-size: 2em; padding: 5px }
-.signup-form input:last-child{ border-radius: 30px; color: white; background-color: #606363; border: none; cursor: pointer }
+.signup-form input{ margin-bottom: 5%; border-radius: 5px; font-size: 1.2em; padding: 10px; border: none;
+                    background-color: #dbdbdb;}
+.signup-form input:last-child{ border-radius: 5px; color: white; margin: 0;
+    background-color: #606363; border: none; cursor: pointer }
 .signup-form input:last-child:hover{ background-color: #383939 }
 
 .signup-img{ margin-bottom: 10%; vertical-align: center }
 .signup-img img{ width: 15% }
 .signup-img p{ margin: 0; font-weight: bolder; cursor: pointer }
+
+.sign-in{ padding: 5px; border-radius: 5px; }
+.sign-in:hover{ background-color: #dbdbdb }
+
