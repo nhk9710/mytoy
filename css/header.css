@@ -19,7 +19,8 @@
 }
 
 .header-container{ position: fixed; width: 100%; background-color: black; z-index: 99; font-family: 'HaenamFont'; }
-.header-wrap{ width: 100%; max-width: 1440px; color: white; justify-content: space-between; align-items: center; padding-top: 10px; padding-bottom: 10px; display: flex; margin: 0 auto; }
+.header-wrap{ width: 100%; max-width: 1440px; color: white; justify-content: space-between; align-items: center; padding-top: 10px; padding-bottom: 10px; display: flex; margin: 0 auto;
+}
 .header-wrap img{ width: 15%; margin-right: 2%; }
 .header-title{ width: 30%; display: flex; justify-content: flex-start; align-items: center; text-align: center }
 
@@ -47,3 +48,7 @@
 .login p{ cursor: pointer }
 .login p:hover{ color: khaki }
 .login img{ width: 20%; }
+
+@media (max-width: 1220px) {
+    
+}

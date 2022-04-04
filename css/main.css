@@ -19,11 +19,13 @@ body{ font-family: 'Dolbomche_B', sans-serif;}
     background-image: url(../img/alcohol1.png);
 
 }
-/*
+
 #section2{
     background-image: url(../img/alcohol2.jpg);
-    padding: 6% 0 0 0;
+    background-size: 40%;
+    background-position: center;
 }
+/*
 #section3{
     background-image: url(../img/alcohol3.jpg);
     padding: 6% 0 0 0;
