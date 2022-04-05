@@ -12,13 +12,12 @@ $(function (){
         animateAnchor: true,
         controllArrows: true,
         menu:'.myNav',
-        sectionsColor : ['lightblue', 'white', 'white', 'grey'],
+        sectionsColor : ['white', 'white', 'white', 'grey'],
         fixedElements: 'footer',
         fadingEffect: true,
     });
 
     $('#login-page').fullpage({
-
         sectionsColor : ['#d4cfcc'],
     });
 

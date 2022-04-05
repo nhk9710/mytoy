@@ -4,56 +4,111 @@
     font-weight: normal;
     font-style: normal;
 }
-body{ font-family: 'Dolbomche_B', sans-serif;}
 
-.all-container{ position: relative; }
+body {
+    font-family: 'Dolbomche_B', sans-serif;
+}
+
+.all-container {
+    position: relative;
+}
 
 #section1,
 #section2,
 #section3,
-#section4{
+#section4 {
     background-size: cover;
     background-repeat: no-repeat;
 }
-#section1{
-    background-image: url(../img/alcohol1.png);
 
-}
-
-#section2{
-    background-image: url(../img/mainPic.jpg);
-    background-size: 40%;
-    background-position: 50% 55%;
-}
-
-#section3{
-    background-image: url(../img/mainSecPic.jpg);
+#section1 {
+    background-image: url(../img/mainSecPic.png);
     background-size: 60%;
     background-position: 50% 90%;
 }
 
-.footer{ background-color: black; width: 100%;}
-.footer-wrap{ width: 100%; max-width: 1440px; color: white; margin: 0 auto; padding-top: 3%; padding-bottom: 1% }
-.footer-wrap .bold-font1{ margin-bottom: 15px; }
+#section2 {
+    background-image: url(../img/mainPic.png);
+    background-size: 55%;
+    background-position: 50% 60%;
+}
 
-.github{ margin-right: 10px }
-.github-teams{ width: 5%; transition: all .3s linear; display: flex; align-items: center; }
-.github-teams:hover{ color: khaki; }
-.github-teams:hover .github-icon{ opacity: 1; pointer-events: auto }
-.github-icon{ display: flex; opacity: 0; pointer-events: none; transition: all 0.3s linear }
-.github-icon p{ background-color: white; color: darkslategray; font-weight: bolder; width: 60%;
+#section3 {
+    background-image: url(../img/alcohol1.png);
+
+}
+
+.footer {
+    background-color: black;
+    width: 100%;
+}
+
+.footer-wrap {
+    width: 100%;
+    max-width: 1440px;
+    color: white;
+    margin: 0 auto;
+    padding-top: 3%;
+    padding-bottom: 1%
+}
+
+.footer-wrap .bold-font1 {
+    margin-bottom: 15px;
+}
+
+.github {
+    margin-right: 10px
+}
+
+.github-teams {
+    width: 5%;
+    transition: all .3s linear;
+    display: flex;
+    align-items: center;
+}
+
+.github-teams:hover {
+    color: khaki;
+}
+
+.github-teams:hover .github-icon {
+    opacity: 1;
+    pointer-events: auto
+}
+
+.github-icon {
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s linear
+}
+
+.github-icon p {
+    background-color: white;
+    color: darkslategray;
+    font-weight: bolder;
+    width: 60%;
     margin-right: 5px;
     padding: 7px 6px;
-    border-radius: 50%; cursor: pointer; transition: all .3s linear }
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .3s linear
+}
 
-.github-icon p:hover{ background-color: khaki; }
+.github-icon p:hover {
+    background-color: khaki;
+}
 
-.copyright{ text-align: center; font-size: 0.9em }
+.copyright {
+    text-align: center;
+    font-size: 0.9em
+}
 
 
 html.modal-active, body.modal-active {
     overflow: hidden;
 }
+
 #modal-container {
     position: fixed;
     display: table;
@@ -73,10 +128,14 @@ html.modal-active, body.modal-active {
 #modal-container.four .modal-background .modal {
     animation: blowUpModal 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
 }
-#modal-container.four.out .modal-background .modal{
+
+#modal-container.four.out .modal-background .modal {
     animation: blowUpModalTwo 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
 }
-#modal-container.out{ display: none; }
+
+#modal-container.out {
+    display: none;
+}
 
 
 #modal-container .modal-background {
@@ -86,7 +145,6 @@ html.modal-active, body.modal-active {
     vertical-align: middle;
     width: 100%;
     height: 100%;
-
 }
 
 
@@ -98,6 +156,7 @@ html.modal-active, body.modal-active {
         transform: scale(1);
     }
 }
+
 @keyframes blowUpModalTwo {
     0% {
         transform: scale(1);
