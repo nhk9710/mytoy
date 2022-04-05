@@ -22,14 +22,14 @@ body{ font-family: 'Dolbomche_B', sans-serif;}
 
 #section2{
     background-image: url(../img/mainPic.jpg);
-    background-size: cover;
-    background-position: center;
+    background-size: 40%;
+    background-position: 50% 55%;
 }
 
 #section3{
     background-image: url(../img/mainSecPic.jpg);
-    background-size: 100%;
-    background-position: center;
+    background-size: 60%;
+    background-position: 50% 90%;
 }
 
 .footer{ background-color: black; width: 100%;}
