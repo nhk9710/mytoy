@@ -21,17 +21,17 @@ body{ font-family: 'Dolbomche_B', sans-serif;}
 }
 
 #section2{
-    background-image: url(../img/alcohol2.jpg);
-    background-size: 40%;
+    background-image: url(../img/mainPic.jpg);
+    background-size: 60%;
     background-position: center;
 }
-/*
+
 #section3{
-    background-image: url(../img/alcohol3.jpg);
-    padding: 6% 0 0 0;
+    background-image: url(../img/mainSecPic.jpg);
+    background-size: 60%;
+    background-position: center;
 }
 
-*/
 .footer{ background-color: black; width: 100%;}
 .footer-wrap{ width: 100%; max-width: 1440px; color: white; margin: 0 auto; padding-top: 3%; padding-bottom: 1% }
 .footer-wrap .bold-font1{ margin-bottom: 15px; }
