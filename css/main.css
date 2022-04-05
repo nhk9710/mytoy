@@ -35,7 +35,8 @@ body {
 
 #section3 {
     background-image: url(../img/alcohol1.png);
-
+    background-size: 90% 100%;
+    background-position: center 65px;
 }
 
 .footer {
