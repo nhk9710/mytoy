@@ -22,13 +22,13 @@ body{ font-family: 'Dolbomche_B', sans-serif;}
 
 #section2{
     background-image: url(../img/mainPic.jpg);
-    background-size: 60%;
+    background-size: cover;
     background-position: center;
 }
 
 #section3{
     background-image: url(../img/mainSecPic.jpg);
-    background-size: 60%;
+    background-size: 100%;
     background-position: center;
 }
 
