@@ -35,8 +35,9 @@ body {
 
 #section3 {
     background-image: url(../img/picTest2.jpg);
-    background-size: 90% 93%;
-    background-position: center 69px;
+    background-size: 1000px 707px;
+    background-position: center;
+
 }
 
 .footer {
