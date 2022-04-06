@@ -28,9 +28,9 @@ body {
 }
 
 #section2 {
-    background-image: url(../img/mainPic.png);
-    background-size: 60% 94%;
-    background-position: 50% 60%;
+    background-image: url(../img/imgTest.jpg);
+    background-size: 60% 93%;
+    background-position: 50% 65px;
 }
 
 #section3 {
@@ -168,3 +168,4 @@ html.modal-active, body.modal-active {
         opacity: 0;
     }
 }
+

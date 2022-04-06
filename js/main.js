@@ -20,5 +20,5 @@ $(function (){
     $('#login-page').fullpage({
         sectionsColor : ['#d4cfcc'],
     });
-
 })
+

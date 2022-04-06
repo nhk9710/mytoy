@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="https://unpkg.com/@egjs/flicking/dist/flicking.pkgd.min.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://unpkg.com/@egjs/flicking/dist/flicking.css" crossorigin="anonymous" />
+</head>
+<body>
+<div id="carousel" class="flicking-viewport">
+  <!-- Camera element -->
+  <div class="flicking-camera">
+    <!-- Panels, class names are your choice -->
+    <div class="panel"></div>
+    <div class="panel"></div>
+    <div class="panel"></div>
+    <div class="panel"></div>
+  </div>
+</div>
+<script>
+    const flicking = new Flicking("#carousel", {
+        align: "center",
+        circular: true,
+        renderOnlyVisible: true
+    });
+    flicking.next( );
+</script>
+</body>
+</html>
