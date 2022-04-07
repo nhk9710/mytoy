@@ -171,7 +171,7 @@ html.modal-active, body.modal-active {
 }
 
 @media ( max-height: 800px ){
-    #section3{  background-size: 1200px 735px;
+    #section3{  background-size: 65% 93.5%;
         background-position: center 67px; }
 }
 
