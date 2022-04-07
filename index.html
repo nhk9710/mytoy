@@ -14,6 +14,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./css/slick.css"/>
   <link rel="stylesheet" href="./css/common.css">
   <link rel="stylesheet" href="./css/jquery.fullPage.css">
   <link rel="stylesheet" href="./css/header.css">
@@ -32,6 +33,19 @@
         <div id="section2" class="section section2">
         </div>
         <div id="section3" class="section section3">
+
+          <!--<div class="my-slick">
+            <div class="slide-card">1</div>
+            <div class="slide-card">2</div>
+            <div class="slide-card">3</div>
+            <div class="slide-card">4</div>
+            <div class="slide-card">5</div>
+            <div class="slide-card">6</div>
+            <div class="slide-card">7</div>
+            <div class="slide-card">8</div>
+            <div class="slide-card">9</div>
+          </div>
+-->
         </div>
         <div class="section fp-auto-height">
           <div class="footer">
@@ -72,10 +86,20 @@
   <script type="text/javascript" src="./js/jquery/jquery-migrate-1.4.1.min.js"></script>
   <script type="text/javascript" src="./js/jquery.fullpage.extensions.min.js"></script>
   <script type="text/javascript" src="./js/jquery.fullPage.js"></script>
+  <script type="text/javascript" src="./js/slick.js"></script>
   <script type="text/javascript" src="./js/main.js"></script>
   <script>
       $(document).ready(() => {
         $('header').load('./html/header.html');
+
+        $('.my-slick').slick({
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            speed: 300,
+
+
+        })
     })
   </script>
 </body>

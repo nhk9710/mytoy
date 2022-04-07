@@ -174,3 +174,5 @@ html.modal-active, body.modal-active {
         background-position: center 70px; }
 }
 
+.my-slick{ border: 1px solid black; width: 50%; }
+.slide-card{ background-color: grey; border-radius: 10px; width: 2em; height: 3em }
