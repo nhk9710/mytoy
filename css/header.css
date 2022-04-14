@@ -32,8 +32,6 @@
     color: white;
     justify-content: space-between;
     align-items: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
     display: flex;
     margin: 0 auto;
 }
@@ -71,7 +69,9 @@
 
 .menu1, .menu2, .menu3, .menu4 {
     transition: all .3s linear;
-    cursor: pointer
+    cursor: pointer;
+    padding: 30px 25px 30px 25px;
+    border-radius: 10px;
 }
 
 .sub-menu1, .sub-menu2, .sub-menu3, .sub-menu4 {
@@ -80,7 +80,8 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    transform: scale(50%);
+    width: 7%;
+    transform: scale(50%) translate(0, 0);
     transition: all .1s linear;
     background-color: white;
     border: 1px solid black;
@@ -104,14 +105,16 @@
 }
 
 .menu1:hover .sub-menu1, .menu2:hover .sub-menu2, .menu3:hover .sub-menu3, .menu4:hover .sub-menu4 {
-    transform: scale(101%) translate(0% ,0%);
+    transform: scale(101%) translate(-15% ,30%);
     opacity: 1;
     pointer-events: auto;
 }
 
 .menu1:hover, .menu2:hover, .menu3:hover, .menu4:hover {
+    background-color: dimgray;
     color: khaki
 }
+
 
 .sub-content {
     padding-top: 10px;
